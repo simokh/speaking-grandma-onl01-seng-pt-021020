@@ -1,8 +1,7 @@
-
 def speak_to_grandma(phrase)
-
-  if phrase == 'I LOVE YOU GRANDMA'
-      'I LOVE YOU TOO PUMPKIN!'
+  if phrase == 'i love you Grandma'.upcase
+    'i love you pumpkin'.upcase
     else 
-  end
-end
+  end 
+end 
+
