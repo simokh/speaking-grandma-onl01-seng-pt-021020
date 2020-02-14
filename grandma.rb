@@ -6,8 +6,11 @@ def speak_to_grandma(phrase)
     'huh?! speak up, sonny!'.upcase
 
   elsif phrase == 'what did you eat today?'.upcase
-      'no, not since 1938'.upcase
+      'NO, NOT SINCE 1938'
 
+    elsif phrase == 'what'.upcase 
+      'NO, NOT SINCE 1938'
+      
       else 'huh?! speak up, sonny!'.upcase
 
   end
