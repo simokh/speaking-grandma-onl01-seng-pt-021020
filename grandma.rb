@@ -4,7 +4,7 @@ def speak_to_grandma(phrase)
 
 
   elsif phrase == 'what did you eat today?'.upcase
-      'no, not since 1938'
+      'no, not since 1938'.upcase
 
       else 'huh?! speak up, sonny!'.upcase
 
